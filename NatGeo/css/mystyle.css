@@ -1,0 +1,56 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif ;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.read-btn{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+/*menu*/
+nav{
+    height: 50px;
+    background-color: white;
+}
+img.big-logo{
+    height: 40px;
+}
+img.small-logo{
+    height: 40px;
+    display: none;
+}
+/*main-news*/
+.main-news-item{
+    background-image: url(../img/footprints.png);
+    height: 350px;
+    width: 800px;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
